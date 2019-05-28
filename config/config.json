@@ -1,0 +1,12 @@
+{
+    "version": "1.0",
+    "repos": [{
+        "name": "consul_kv_init_data",
+        "url": "https://github.com/phobos-nik/ConsulKvInit.git",
+        "branches": ["master"],
+        "hooks": [{
+            "type": "polling",
+            "interval": "1"
+        }]
+    }]
+}
